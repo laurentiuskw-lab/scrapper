@@ -1,0 +1,15 @@
+{
+  "name": "m3u8-proxy",
+  "version": "1.0.0",
+  "description": "Proxy pentru a extrage fisierul .m3u8 de pe vidsrc.pm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
