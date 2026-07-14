@@ -1,14 +1,13 @@
 {
-  "name": "scraper",
+  "name": "m3u8-proxy",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "express": "^4.18.2",
+    "puppeteer": "^23.0.0"
   }
 }
