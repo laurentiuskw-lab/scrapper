@@ -1,7 +1,6 @@
 {
-  "name": "m3u8-proxy",
+  "name": "scraper",
   "version": "1.0.0",
-  "description": "Proxy pentru a extrage fisierul .m3u8 de pe vidsrc.pm",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
